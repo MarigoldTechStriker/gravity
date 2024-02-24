@@ -8,7 +8,7 @@ public class ShowtimeEvents implements Listener {
 
     @EventHandler
     public void onPlayerJoin(AsyncPlayerPreLoginEvent e) {
-        e.disallow(AsyncPlayerPreLoginEvent.Result.KICK_FULL, "This game is already in progress!");
+        e.disallow(AsyncPlayerPreLoginEvent.Result.KICK_FULL, "&cThis game is already in progress! Try again later!");
     }
 
 }
